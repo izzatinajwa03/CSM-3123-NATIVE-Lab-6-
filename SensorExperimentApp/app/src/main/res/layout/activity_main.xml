@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/accelerometerData"
+        android:text="Accelerometer Data: "
+        android:paddingTop="16dp"/>
+
+    <TextView
+        android:id="@+id/proximityData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proximity Data: "
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:id="@+id/lightData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Light Sensor Data: "
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/orientationData"
+        android:text="Orientation Data: "
+        android:paddingTop="16dp"/>
+
+</LinearLayout>
